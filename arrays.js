@@ -6,12 +6,11 @@ function addElementToBeginningOfArray(array, element) {
 function destructivelyAddElementToBeginningOfArray(array, element) {
   return array.unshift(element)
 }
-function addElementToEndOfArray(a,b) {
-  return [. . .a, b]
+function addElementToEndOfArray(array, element) {
+  return [...array, element]
 }
 function destructivelyAddElementToEndOfArray(a,b) {
-  a = [. . .a, b]
-  return a
+  return array.push(element)
 }
 function accessElementInArray(a,b) {
   return a[b]
